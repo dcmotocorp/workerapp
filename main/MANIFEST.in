@@ -1,0 +1,9 @@
+include requirement.txt
+include readme.md
+include manage.py
+include db.sqlite3
+include manage.py
+recursive-exclude worker2 *admin.py
+recursive-exclude worker2 *apps.py
+recursive-exclude worker2 *tests.py
+recursive-exclude worker2 *models.py
